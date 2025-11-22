@@ -15,10 +15,10 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := t801s
-DEVICE_PATH := device/tcl/t801s
+PRODUCT_RELEASE_NAME := T801S
+DEVICE_PATH := device/tcl/T801S
 
-$(call inherit-product, device/tcl/t801s/device.mk)
+$(call inherit-product, device/tcl/T801S/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
@@ -27,8 +27,8 @@ $(call inherit-product, vendor/omni/config/common.mk)
 #PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := t801s
-PRODUCT_NAME := omni_t801s
+PRODUCT_DEVICE := TCL
+PRODUCT_NAME := omni_T801S
 PRODUCT_BRAND := TCL
 PRODUCT_MODEL := TCL 20 Pro 5G
 PRODUCT_MANUFACTURER := TCL
