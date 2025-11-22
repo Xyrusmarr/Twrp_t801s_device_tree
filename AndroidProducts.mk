@@ -15,6 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_t801s.mk
+    $(LOCAL_DIR)/omni_T801S.mk
 
-COMMON_LUNCH_CHOICES := omni_t801s-eng
+COMMON_LUNCH_CHOICES := omni_T801S-eng
